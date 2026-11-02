@@ -2,28 +2,40 @@
 
 Student Number: ST10503865
 
-This repository is for the Mayville Community Resource Centre website, prepared for Web Development Part 3.
-
-## Project features
-- Responsive pages: Home, About, Services, Enquiry and Contact
-- JavaScript service search and filtering
-- FAQ accordion and image lightbox
-- Leaflet interactive map using OpenStreetMap
-- SEO metadata, `robots.txt` and `sitemap.xml`
-- Responsive CSS styling and animations
+This folder contains the updated Part 3 website, based on the Part 2 Mayville project. The code is kept simple and suitable for editing in Visual Studio Code.
 
 ## Website files
-Upload the Part 3 project files to the repository root: `index.html`, `about.html`, `services.html`, `enquiry.html`, `contact.html`, `style.css`, `script.js`, `robots.txt`, `sitemap.xml`, `CHANGELOG.md`, and `IMAGE_SOURCES.txt`.
+- `index.html` – Home page
+- `about.html` – About the centre
+- `services.html` – Services with search/filter
+- `enquiry.html` – Enquiry form and FAQ accordion
+- `contact.html` – Contact information and interactive map
+- `style.css` – External stylesheet and responsive design
+- `script.js` – JavaScript interactions
+- `robots.txt` – Search crawler instructions
+- `sitemap.xml` – Website page list for search engines
+- `IMAGE_SOURCES.txt` – Sources for the real Pexels images
 
-## Publishing with GitHub Pages
-After uploading the website files:
-1. Open repository **Settings**.
-2. Select **Pages**.
-3. Under Build and deployment, choose **Deploy from a branch**.
-4. Select branch `main` and folder `/ (root)`, then save.
-5. Wait for the Pages deployment to finish.
+## Part 3 enhancements
+- Added page-specific SEO titles, meta descriptions, keywords and social sharing metadata.
+- Added JavaScript service search/filtering.
+- Added an FAQ accordion on the enquiry page.
+- Added a clickable image gallery lightbox, including keyboard support and Escape-to-close.
+- Added scroll reveal animations and card hover transitions.
+- Added an interactive Leaflet map showing the Mayville area, using OpenStreetMap tiles.
+- Added `robots.txt` and `sitemap.xml`.
+- Added reduced-motion support and basic accessibility attributes.
+- Updated the changelog and references.
 
-The live URL should be `https://tshepangmanaka-ops.github.io/Mayville-Website-ST10503865/`.
+## Run locally
+1. Extract the ZIP file.
+2. Open this folder in Visual Studio Code.
+3. Open `index.html` in a browser.
+4. Test all navigation links, the service search, FAQ buttons, image lightbox and map.
+5. Internet access is required for the Pexels images, Leaflet library and map tiles.
 
-## Notes
-The map marker is approximate. Sample contact details should be verified before real-world use. Update the base URL in `robots.txt` and `sitemap.xml` after the site is published.
+## Publish
+Upload the contents of this folder to the GitHub repository and enable GitHub Pages, or deploy the folder through Netlify. After publishing, replace `YOUR-GITHUB-USERNAME` and `YOUR-REPOSITORY` in `robots.txt` and `sitemap.xml` with the actual website URL. The map marker is an approximate Mayville-area location; verify the centre's exact address before using it as a visitor directions point.
+
+## Important
+The contact details in this student project are sample details. Confirm them before publishing as a real organisation website.

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Mayville Community Resource Centre</title>
+    <meta name="description" content="Make an enquiry about services and programmes at Mayville Community Resource Centre in Pretoria.">
+    <meta name="keywords" content="Mayville community resource centre, Pretoria, computer training, digital skills, community support">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Enquiry - Mayville Community Resource Centre">
+    <meta property="og:description" content="Make an enquiry about services and programmes at Mayville Community Resource Centre in Pretoria.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <div class="logo">Mayville CRC</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="page-title">
+        <div class="container">
+            <h1>Enquiry</h1>
+            <p>Send us an enquiry about our services.</p>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="form-box">
+                <form onsubmit="showMessage(); return false;">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service</label>
+                        <select id="service" required>
+                            <option value="">Choose a service</option>
+                            <option>Computer Access</option>
+                            <option>IT Training</option>
+                            <option>Job Support</option>
+                            <option>Printing and Scanning</option>
+                            <option>Youth Development</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+
+                    <button type="submit">Submit Enquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<section class="faq-section">
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Do I need to book for IT training?</button>
+            <div class="faq-answer"><p>Please send an enquiry so the centre can advise you about available training times.</p></div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">Can I get help with a CV?</button>
+            <div class="faq-answer"><p>Yes. The centre provides support with CV preparation and online job applications.</p></div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">What should I include in my enquiry?</button>
+            <div class="faq-answer"><p>Include your contact details and the service you are interested in.</p></div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-columns">
+        <div class="footer-column">
+            <h3>Mayville Community Resource Centre</h3>
+            <p>Helping the community through technology, learning and support.</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="about.html">About Us</a></p>
+            <p><a href="services.html">Services</a></p>
+            <p><a href="enquiry.html">Enquiry</a></p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Contact</h3>
+            <p>123 Community Street</p>
+            <p>Mayville, Pretoria</p>
+            <p>011 123 4567</p>
+            <p>info@mayville.org.za</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
